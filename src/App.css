@@ -21,10 +21,11 @@
   flex-direction: row;
 }
 
-.header_links button{
+.header_links p {
   text-decoration: none;
   color: rgb(0, 0, 0);
-  padding:10px 20px
+  padding:10px 20px; 
+  cursor: pointer;
 }
 
 .header_links_dont,.filter_dont{
