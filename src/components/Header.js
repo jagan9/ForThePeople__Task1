@@ -16,10 +16,10 @@ function Header() {
                 <img src="https://www.mastercardcenter.org/content/dam/mc-cig/Logo/logo.png" alt="logo" height="60px" width="auto" />
             </div>
             <div className={menu}>
-                <a href="#">About</a>
-                <a href="#">Insights Impact</a>
-                <a href="#">Engagements</a>
-                <a href="#">News Media</a>
+                <button>About</button>
+                <button>Insights Impact</button>
+                <button>Engagements</button>
+                <button>News Media</button>
             </div>
         </div>
     )
