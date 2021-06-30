@@ -21,7 +21,7 @@
   flex-direction: row;
 }
 
-.header_links a{
+.header_links button{
   text-decoration: none;
   color: rgb(0, 0, 0);
   padding:10px 20px
