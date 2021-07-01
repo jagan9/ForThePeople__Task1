@@ -4,13 +4,16 @@ const blog = [
         title: "FINANCIAL INCLUSION",
         img: "https://www.mastercardcenter.org/content/dam/mc-cig/articles/insights/2021_pics/jun-2021/CFIG_Main_Art_Accion_DigitalTrans.jpg.thumb.319.319.png",
         decs: "Advancing digital transformation for inclusive financial services",
-
+        heading: "Advancing digital transformation for inclusive financial services",
+        description: "The crux:  Inclusive financial services providers, including microfinance institutions, play a critical role in supporting the world’s most marginalized populations. They also help connect underserved small businesses with the financial tools and services they need to grow and to build financial security for their families. COVID-19 accelerated the move to a digital economy. This shift could leave many small businesses behind unless the microfinance institutions that serve them get the support needed to adapt their traditionally high-touch service model to an increasingly digital world. There’s also an opportunity to embed small business services into technology platforms that reach this underserved segment.A new guide based on lessons from the Mastercard-Accion partnership provides insights from several financial service providers that are undergoing a digital transformation. While the guide is geared to financial inclusion-focused institutions, it also contains insights for how those in the public, private and philanthropic sectors can better support financial service providers in reaching these “last mile” entrepreneurs."
     },
     {
         id: 2,
         title: "DATA FOR GOOD",
         img: "https://www.mastercardcenter.org/content/dam/mc-cig/articles/insights/2021_pics/jun-2021/CFIG_Article_Hero_AA.jpg.thumb.319.319.png",
         decs: "Asian American communities hit earlier and harder by COVID‑19",
+        heading: "Advancing digital transformation for inclusive financial services",
+        description: "The crux:  Inclusive financial services providers, including microfinance institutions, play a critical role in supporting the world’s most marginalized populations. They also help connect underserved small businesses with the financial tools and services they need to grow and to build financial security for their families. COVID-19 accelerated the move to a digital economy. This shift could leave many small businesses behind unless the microfinance institutions that serve them get the support needed to adapt their traditionally high-touch service model to an increasingly digital world. There’s also an opportunity to embed small business services into technology platforms that reach this underserved segment.A new guide based on lessons from the Mastercard-Accion partnership provides insights from several financial service providers that are undergoing a digital transformation. While the guide is geared to financial inclusion-focused institutions, it also contains insights for how those in the public, private and philanthropic sectors can better support financial service providers in reaching these “last mile” entrepreneurs."
 
     },
     {
@@ -18,6 +21,8 @@ const blog = [
         title: "SMALL BUSINESS",
         img: "https://www.mastercardcenter.org/content/dam/mc-cig/articles/insights/2021_pics/may-2021/CFIG_Main_Art_BancoSol.jpg.thumb.319.319.png",
         decs: "COVID‑19 shows small businesses the benefits of digital financial services",
+        heading: "Advancing digital transformation for inclusive financial services",
+        description: "The crux:  Inclusive financial services providers, including microfinance institutions, play a critical role in supporting the world’s most marginalized populations. They also help connect underserved small businesses with the financial tools and services they need to grow and to build financial security for their families. COVID-19 accelerated the move to a digital economy. This shift could leave many small businesses behind unless the microfinance institutions that serve them get the support needed to adapt their traditionally high-touch service model to an increasingly digital world. There’s also an opportunity to embed small business services into technology platforms that reach this underserved segment.A new guide based on lessons from the Mastercard-Accion partnership provides insights from several financial service providers that are undergoing a digital transformation. While the guide is geared to financial inclusion-focused institutions, it also contains insights for how those in the public, private and philanthropic sectors can better support financial service providers in reaching these “last mile” entrepreneurs."
 
     },
     {
