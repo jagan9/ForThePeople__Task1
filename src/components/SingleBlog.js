@@ -27,9 +27,15 @@ function SingleBlog(props) {
                         <h4 className="sp-related-content">Related Content</h4>
                     </div>
                     <div className="related-content">
-                        <Blog data={props.Data[0]} />
-                        <Blog data={props.Data[1]} />
-                        <Blog data={props.Data[2]} />
+                        <div>
+                            <Blog data={props.Data[0]} />
+                        </div>
+                        <div>
+                            <Blog data={props.Data[1]} />
+                        </div>
+                        <div>
+                            <Blog data={props.Data[2]} />
+                        </div>
                     </div>
                 </div>
             }
