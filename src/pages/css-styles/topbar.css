@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+.Imagebar{
+    width: 100%;
+    position: relative;
+    /* text-align: center; */
+}
+.Imagebar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 1103px;
+    background-color: white;
+    position:absolute;
+    bottom: 1px;
+    left: 100px;
+}
+.Imagebar ul li{
+    list-style: none;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    float: left;
+    clear: both;
+    margin-left: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #10578B;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Imagebar span{
+    font-size: 32px;
+    width: auto;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 100px;
+    left: 110px;
+    white-space: nowrap;
+}
+
+#image{
+    padding-top: 30px;
+}
+.dropdown__menu,.selected {
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+    background-color: white;
+}
+.dropdown__menu li,.selected{
+    border: none;
+    border-bottom: 1px solid #D3D3D3;
+    list-style: none;
+    color: #10578B;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: bold;
+    line-height: 2;
+    text-align: left;
+    padding: 0.3rem 1rem;
+
+}
+.dropdown__menu{
+    display: none;
+}
+.selected{
+    width: 80%;
+    background-color: #EDF1F4;
+    border: 1px solid #D3D3D3 !important;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    position: relative;
+}
+.selected span img{
+    width: 16px;
+    height: 16px;
+    float: right;
+    
+    transform: translate(-50%, -50%);
+}
+.dropdown__menu {
+    	box-shadow: 0 0 5px 1px #cccc;
+        border-radius: 3px;
+}
+
+
+/* Mobile-View */
+@media screen and (max-width: 480px) {
+    .Imagebar ul{
+        display: none;
+    }
+    .selected{
+        margin-top: 0.5rem;
+        display: block;
+        /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    }
+    .Imagebar img{
+        max-width:100%;
+        height: 200px;
+        object-fit: fill;
+    }
+    .Imagebar span{
+        font-size: 25px;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         white-space:normal;
+    }
+    .Imagebar{
+        position: unset;
+
+    }
+    .selected{
+        position: unset;
+    }
+}

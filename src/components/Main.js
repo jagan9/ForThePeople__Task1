@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import Blog from './Blog';
 import Data from '../data';
+import '../App.css'
 
 
 function Main() {
@@ -36,7 +37,7 @@ function Main() {
                     <p>Topic  <span>+</span> </p><hr />
                     <p>Region  <span>+</span> </p><hr />
                 </div>
-                <div className="Blogs">
+                <div className="blogs">
                     {
                         Data.map(data => (
                             <Blog key={data.id} data={data} />
