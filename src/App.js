@@ -29,6 +29,8 @@ import SingleBlog from './components/SingleBlog'
 
 import Data from './data';
 
+import Governance from "./pages/about/Governance/Governance";
+
 
 // name: Naini Yashwanth email: nainiyashwanth@gmail.com
 
@@ -40,8 +42,8 @@ const App = () => {
 
     return (
         <Router>
-            <div>
-                <header className="header-section">
+            <div >
+                <header style={{ zIndex: "200" }} className="header-section">
                     <nav className="navigation-bar">
                         <div className="toggler-button">
                             {/* using onclick method to change the sidemenuopen value to 'true' when the
@@ -100,6 +102,10 @@ const App = () => {
 
                         <Route path="/report" exact>
                             <Report />
+                        </Route>
+
+                        <Route path="/governance" exact>
+                            <Governance />
                         </Route>
 
 

@@ -13,7 +13,6 @@ const NavBar = () => (
 
     <div className="nav-menu " style={{
         height: "100%",
-        zIndex: 2,
     }}>
         <ul >
             {/*using props to send information to navitem component */}

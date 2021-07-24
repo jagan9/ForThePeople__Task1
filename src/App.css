@@ -32,6 +32,7 @@ body {
 }
 
 .div_hover {
+    z-index: 20;
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
     position: relative;
@@ -134,6 +135,7 @@ form {
 
 }
 .nav-menu {
+    background-image: linear-gradient(white,white);
     display: inline-block;
     flex: 1;
     margin-right: 25px;
